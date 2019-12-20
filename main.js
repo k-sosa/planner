@@ -24,9 +24,8 @@ function renderLastRegistered() {
 
 }
 
-$(".saveLocalStorage")click(function(nothing) {
-  nothing.preventDefault();
-  console.log(nothing)
+$(".saveLocalStorage")click(function() {
+  
 
   const userInput = $(".user-input").value
 
