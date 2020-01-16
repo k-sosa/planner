@@ -14,4 +14,3 @@ This is a day planner from 9am to 5pm. User will be able to input text of appoin
 I created the table with all html. 
 
 //Issues
-I had a hard time getting the text to display and save. 
