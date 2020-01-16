@@ -1,16 +1,14 @@
 # planner
-//pseudo code:
-I need to get a layout for the calendar-bootstrap
-make a function to display all the rows
-get date and times in proper slots
-make time slots have input textboxes and a save button--save to local storage
-row of current hour will have different color than the rest
-lastly make it pretty
+Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-//Objective
-This is a day planner from 9am to 5pm. User will be able to input text of appointments or to-do's and save o local storage. The current hour will be a different color to make user aware of time and saved appointments.
+The app should display standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following:
 
-//Structure
-I created the table with all html. 
+* The time
 
-//Issues
+* A field to hold user input
+
+* A save button
+
+Clicking on the save button will store the time and user input in `localStorage`.
+
+Near the top of the calendar, the application should display the current day. Additionally, each hour should be color coded to reflect whether the time slot is in the past, the present, or the future. This will change depending on the time of day.
